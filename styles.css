@@ -82,6 +82,8 @@ We Offer
 
 .we__offer__row {
     overflow: hidden;
+    max-width: 1280px;
+    margin: 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -102,6 +104,10 @@ We Offer
 
   .header__image__wrapper {
     text-align:center;
+  }
+
+  .header__image {
+    width: 100%;
   }
 
   .responsive-image {
