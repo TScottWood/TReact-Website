@@ -82,6 +82,7 @@ We Offer
 
 .we__offer__row {
     overflow: hidden;
+    width: 100%;
     max-width: 1280px;
     margin: 0;
     display: flex;
@@ -108,12 +109,6 @@ We Offer
 
   .header__image {
     width: 100%;
-  }
-
-  .responsive-image {
-    width: 100%;
-    height: auto;
-    max-width: 600px;
   }
 
   h1 {
