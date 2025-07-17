@@ -79,12 +79,28 @@ Features
   
   .column-1 {
     width: 60%
+    margin-left: 2%;
+    margin-right: 1%;
+    background-color: #f0f0f0;
   }
   
   .column-2 {
     width: 40%
+    margin-left: 1%;
+    margin-right: 2%;
+    background-color: #e0e0e0;
   }
 
   .header__image__wrapper {
+    text-align:center;
+  }
+
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+  }
+
+  h1 {
 
   }
