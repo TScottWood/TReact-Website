@@ -70,22 +70,19 @@ Features
 */
 
 .features__row {
+    overflow: hidden;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
   
   .column-1 {
-    float: left;
-    margin-left: 2%;
-    width: 37;
-    margin-right: 1%;
+    width: 60%
   }
   
   .column-2 {
-    float: left;
-    margin: left: 1%;
-    width: 37%;
-    margin-right: 2%;
+    width: 40%
   }
 
   .header__image__wrapper {
