@@ -14,9 +14,12 @@ li {
     list-style: none;
 }
 
+.purple {
+    color: #7342d6;
+}
+
 .nav__container {
     width: 100%;
-    max-width: 1200px;
     padding: 0 24;
     display: flex;
     justify-content: space-between;
@@ -47,12 +50,13 @@ li {
     margin-right: 30px;
     padding-bottom: 20;
     gap: 20px;
+    font-size: 20px;
 }
 
 .oval-button {
     background-color: #007bff;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 18px;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -69,25 +73,29 @@ Features
 
 */
 
+.features__container {
+    display: flex;
+    height: 100vh;
+}
+
 .features__row {
     overflow: hidden;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
     width: 100%;
   }
   
   .column-1 {
-    width: 60%
-    margin-left: 2%;
+    width: 40%;
     margin-right: 1%;
+    padding: 0px 0px 0px 20px;
     background-color: #f0f0f0;
   }
   
   .column-2 {
-    width: 40%
+    width: 60%;
     margin-left: 1%;
-    margin-right: 2%;
     background-color: #e0e0e0;
   }
 
@@ -102,5 +110,14 @@ Features
   }
 
   h1 {
-
+    font-size: 60px;
+    width: 100%;
+    height: auto;
   }
+
+  p {
+    font-size: 22px;
+    padding: 50px 0px 50px 0px;
+  }
+
+
