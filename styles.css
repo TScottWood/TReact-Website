@@ -77,7 +77,6 @@ We Offer
 .we__offer__container {
   width: 100%;
   display: flex;
-  height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -153,6 +152,10 @@ Features
 
 */
 
+#features {
+  margin-top: 150px;
+}
+
 .features__row {
   display: flex;
   flex-direction: column;
@@ -171,28 +174,34 @@ Features
 }
 
 .feature__heading__para {
+font-size: 24px;
+}
 
+.feature__description {
+  display:flex;
+  flex-direction: column;
+  margin-left: 10px;
 }
 
 .features__wrapper {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1280px;
 }
 
 .feature {
   width: calc(100%/3);
   display: flex;
-  flex-direction: column;
+  margin-bottom: 24px;
 }
 
 .feature__para {
-  text-align: center;
+  text-align: left;
   max-width: 280px;
+  padding: 0;
+  margin-top: 24px;
 }
 
-.highlight__subtitle {
-  font-size: 20px;
-  margin-bottom: 16px;
-  text-align: center;
-}
