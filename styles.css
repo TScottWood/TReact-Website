@@ -153,29 +153,35 @@ Features
 
 */
 
+.features__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .features__section__title {
-  width: 100%;
   font-size: 32px;
   margin-bottom: 32px;
-  display: flex;
   text-align: center;
-  justify-content: center;
 }
 
 .features__section__subtitle {
-  display:flex;
-  align-items: center;
-  justify-content: center;
   font-size: 50px;
 }
 
+.feature__heading__para {
+
+}
+
 .features__wrapper {
-  width: calc(100%/3)
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .feature {
+  width: calc(100%/3);
   display: flex;
   flex-direction: column;
 }
