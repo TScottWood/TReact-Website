@@ -164,13 +164,16 @@ Features
 }
 
 .features__section__title {
-  font-size: 32px;
-  margin-bottom: 32px;
-  text-align: center;
+  font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-align: center;
 }
 
 .features__section__subtitle {
-  font-size: 50px;
+  font-size: 48px;
 }
 
 .feature__heading__para {
@@ -196,6 +199,7 @@ font-size: 24px;
   width: calc(100%/3);
   display: flex;
   margin-bottom: 24px;
+  font-size: 20px;
 }
 
 .feature__para {
@@ -204,4 +208,53 @@ font-size: 24px;
   padding: 0;
   margin-top: 24px;
 }
+
+/*
+
+Quality
+
+*/
+
+.quality__container {
+  max-width: 1280px;
+  display: flex;
+}
+
+.quality__row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px;
+  }
+  
+  .left-column, .right-column {
+    width: calc(100%/2);
+  }
+
+  .quality__section__title {
+
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    padding: 0 0 36px 0;
+  }
+
+  .quality__section__subtitle {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+    width: 100%;
+    height: auto;
+  }
+
+  .p {
+    text=align: left;
+  }
+
+.header__image--wrapper {
+  width: 100%;
+}  
+
 
