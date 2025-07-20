@@ -55,7 +55,7 @@ li {
 }
 
 .oval-button {
-    background-color: #7342d6;
+    background-color: #7342d6;;
     color: white;
     padding: 10px 18px;
     border: none;
@@ -67,12 +67,6 @@ li {
 .burger__menu {
     display: none;
 }
-
-/*
-
-We Offer
-
-*/
 
 .we__offer__container {
   width: 100%;
@@ -146,17 +140,8 @@ We Offer
     width: 100%;
   }
 
-/*
-
-Features
-
-*/
-
-#features {
-  margin-top: 150px;
-}
-
 .features__row {
+  padding: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,8 +149,8 @@ Features
 }
 
 .features__section__title {
-  font-size: 16px;
-    color: #6415ff;
+    font-size: 16px;
+    color: #7342d6;
     letter-spacing: 1.6px;
     font-weight: 700;
     margin-bottom: 32px;
@@ -174,16 +159,29 @@ Features
 
 .features__section__subtitle {
   font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  line-height: 1.5;
+  margin: 16px 0;
+  letter-spacing: 0.025em;
 }
 
 .feature__heading__para {
-font-size: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
 }
 
 .feature__description {
   display:flex;
   flex-direction: column;
   margin-left: 10px;
+}
+
+.feature__subtitle {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .features__wrapper {
@@ -209,52 +207,108 @@ font-size: 24px;
   margin-top: 24px;
 }
 
-/*
+.feature__img {
+  display: flex;
+  align-items: flex-start;
+}
 
-Quality
+.icon {
+  border: 2px solid #7342d6;
+  border-radius: 50%;
+  width: 35px; /* Increased for padding effect */
+  height: 35px; /* Increased for padding effect */
+  object-fit: contain; /* Keeps icon at original size */
+  display: block;
+  margin-right: 10px;
+  margin-top: 2px; /* Adjusted for subtitle alignment */
+  padding: 4px; /* Adds internal spacing between image and border */
+}
 
-*/
+.quality__work {
+  padding: 150px 32px;
+}
 
 .quality__container {
   max-width: 1280px;
+  margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.column-left,
+.column-right {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quality__section__title {
+  font-size: 16px;
+  color: #7342d6;
+  letter-spacing: 1.6px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.quality__section__subtitle {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  margin: 16px 0;
+  letter-spacing: 0.025em;
+}
+
+.quality__heading__para {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
+  margin-bottom: 32px;
+}
+
+.oval-button {
+  background-color: #7342d6;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.oval-button:hover {
+  background-color: #5b21b6;
+}
+
+.quality__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .quality__row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 80px;
-  }
-  
-  .left-column, .right-column {
-    width: calc(100%/2);
-  }
+  display: none;
+}
 
-  .quality__section__title {
-
-    font-size: 16px;
-    color: #6415ff;
-    letter-spacing: 1.6px;
-    font-weight: 700;
-    padding: 0 0 36px 0;
+@media (max-width: 768px) {
+  .quality__container {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .quality__section__subtitle {
-    font-size: 48px;
-    font-weight: 900;
-    color: rgb(36, 62, 99);
-    line-height: 1.5;
-    letter-spacing: 0.025em;
-    width: 100%;
-    height: auto;
+  .column-left,
+  .column-right {
+  text-align: center;
   }
 
-  .p {
-    text=align: left;
+  .oval-button {
+    align-self: center;
   }
-
-.header__image--wrapper {
-  width: 100%;
-}  
-
-
+}
