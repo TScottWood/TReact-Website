@@ -166,7 +166,6 @@ p {
 .feature__heading__para {
   font-size: 18px;
   font-weight: 500;
-  line-height: 1.5;
   color: #7c8ba1;
   margin-bottom: 20px;
 }
@@ -230,6 +229,9 @@ p {
 .quality__container {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.quality__row {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
@@ -244,7 +246,7 @@ p {
   justify-content: center;
 }
 
-.quality__section__title {
+.h2 {
   font-size: 16px;
   color: #7342d6;
   letter-spacing: 1.6px;
@@ -252,7 +254,7 @@ p {
   text-transform: uppercase;
 }
 
-.quality__section__subtitle {
+.h3 {
   font-size: 48px;
   font-weight: bold; 
   color: rgb(0, 0, 0,);
@@ -285,45 +287,24 @@ p {
   background-color: #5b21b6;
 }
 
-.quality__img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-}
 
-@media (max-width: 768px) {
-  .quality__container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .column-left,
-  .column-right {
-  text-align: center;
-  }
-
-  .oval-button {
-    align-self: center;
-  }
-
-  
 /* 
 
 STEPS 
 
 */
 
-#Steps {
-  padding: 150px 32px;
-}
-
-.steps__container {
-  max-width: 1280px;
-  margin: 0 auto;
+.steps__row {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
+}
+
+.steps__container {
+  padding: 150px 32px;
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .column-left,
@@ -335,21 +316,29 @@ STEPS
   justify-content: center;
 }
 
-.steps__section__title {
+.steps__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+.h2 {
   font-size: 16px;
   color: #7342d6;
   letter-spacing: 1.6px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
-.steps__section__subtitle {
+.h3 {
   font-size: 48px;
   font-weight: bold; 
   color: rgb(0, 0, 0,);
   margin: 16px 0;
   letter-spacing: 0.025em;
 }
+
 
 .steps__heading__para {
   font-size: 14px;
@@ -376,20 +365,4 @@ STEPS
   background-color: #5b21b6;
 }
 
-.steps__img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.steps__row {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .steps__container {
-    flex-direction: column;
-    align-items: center;
-  }
 
