@@ -374,8 +374,10 @@ VALUES
 
 
 . container {
-
+  display: flex;
+  margin: 0 auto;
 }
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -384,15 +386,12 @@ VALUES
 
 .row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
-
-.values__description,
-.values__img {
-  Width: 50%;
 }
 
 .values__description {
+  width: Calc(100%/2);
   padding: 32px 0;
 }
 
@@ -401,7 +400,6 @@ VALUES
   color: #6415ff;
   letter-spacing: 1.6px;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 32px;
 }
 
@@ -412,12 +410,56 @@ VALUES
 
 .section__para {
   font-size: 18px;
-  font-weight: 500;
   color: #7c8ba1;
   line-height: 1.625;
+  margin-bottom: 32px;
 }
 
 .values__list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.value__title {
+display: flex;
+}
+
+.value__dollar--img--wrapper {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  padding: 11px;
+  background-color: lightgreen;
+  border: 1px solid #e5e7eb;
+  border-radius: 500px;
+}
+
+.value__suitcase--img--wrapper {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  padding: 9px;
+  background-color: lightgreen;
+  border: 1px solid #e5e7eb;
+  border-radius: 500px;
+}
+
+.value__name {
+  margin-left: 12px;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #243e63;
+}
+.value__para {
+  line-height: 1.625;
+  color: #718096;
+  margin-bottom: 16px;
 }
