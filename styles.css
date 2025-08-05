@@ -480,14 +480,8 @@ PRICES
 
 #prices {
   display:flex;
-  flex-direction: center;
-  align-items: center;
+  justify-content: center;
 }
-
-.container (
-  display: flex;
-  margin: 0 auto;
-)
 
 .section__tag {
   font-size: 16px;
@@ -515,8 +509,12 @@ PRICES
 }
 
 .plans {
-  display: flex;
   flex-direction: column;
+  padding: 20px;
+  max-width: 1200;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .plan {
