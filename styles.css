@@ -516,7 +516,7 @@ PRICES
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.plan--AC {
+.plan--A {
   width: 100%;
   max-width: 384px;
   margin: 64px 32px 0px 0px;
@@ -524,6 +524,40 @@ PRICES
   border-radius: 8px;
   color: black;
   background: rgb(255, 255, 255);
+  position: relative;
+  overflow: hidden;
+}
+
+.plan--A::after {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color:rgb(148, 208, 156);
+}
+
+.plan--C {
+  width: 100%;
+  max-width: 384px;
+  margin: 64px 32px 0px 0px;
+  padding-top: 8px;
+  border-radius: 8px;
+  color: black;
+  background: rgb(255, 255, 255);
+  position: relative;
+  overflow: hidden;
+}
+
+.plan--C::after {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: rgb(241, 191, 173);
 }
 
 .plan--B{
@@ -537,6 +571,7 @@ PRICES
 }
 
 .plan__stripe--A {
+  background: linear-gradient 
   max-width: 384px;
   position: absolute;
   top: 0px;
@@ -676,3 +711,41 @@ PRICES
     cursor: pointer;
     font-size: 16px;
     }
+
+
+/* 
+
+TESTIMONIALS
+
+*/
+
+#testimonials {
+  display:flex;
+  justify-content: center;
+}
+
+.section__tag {
+  padding-top: 150px;
+  font-size: 16px;
+  color: #6415ff;
+  letter-spacing: 1.6px;
+  font-weight: 700;
+  text-align: center;
+}
+  
+.section__title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  line-height: 1.5;
+  margin: 16px 0;
+  text-align: center;
+}
+  
+.section__para {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
+}
