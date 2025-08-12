@@ -255,8 +255,8 @@ p {
   gap: 32px;
 }
 
-.column-left,
-.column-right {
+.quality__column-left,
+.quality__column-right {
   flex: 1;
   min-width: 300px;
   display: flex;
@@ -1138,4 +1138,59 @@ footer {
   color: black;
   border: 2px solid white;
 }
+
+/* 
+
+Responsiveness
+
+*/
+
+@media (max-width: 900px) {
+  .burger__menu {display: flex;}
+  .nav__links {
+    display: none;
+  }
+  .features__row {
+    display: flex;
+    justify-content: center;
+  }
+  .feature {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1020px) {
+  .we__offer__row {
+    flex-direction: column;
+  }
+  .H1 {
+    text-align: center;
+  }
+  .column-1 {
+    width: 100%;
+  }
+  .header__description {
+    text-align: center;
+  }
+  .header__customers--title {
+    display: flex;
+    justify-content: center;
+  }
+  .quality__row {
+    flex-direction: column;
+  }
+  .column--left {
+    width: 100%;
+  }
+  .quality__section__title {
+    text-align: center;
+  }
+
+.quality__column-left {
+  display: flex;
+  justify-content: center;
+}
+}
+
 
