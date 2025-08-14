@@ -7,7 +7,7 @@
 }
 
 section {
-  padding: 96 0;
+  padding: 96px 0;
 }
 
 .row {
@@ -157,7 +157,11 @@ p {
   width: 100%;
   }
 
-/* FEATURES */
+/* 
+
+FEATURES 
+
+*/
 
 .features__container {
   margin-bottom: 96px;
@@ -245,7 +249,11 @@ p {
 }
 
 
-/* QUALITY WORK */
+/* 
+
+QUALITY WORK 
+
+*/
 
 
 .quality__container {
@@ -355,7 +363,7 @@ STEPS
 .right-column {
   width: 50%;
   display: flex;
-  flex-direction: column:
+  flex-direction: column;
   text-align: left;
 }
 
@@ -605,7 +613,7 @@ PRICES
 }
 
 .plan__stripe--A {
-  background: linear-gradient 
+  background: linear-gradient; 
   max-width: 384px;
   position: absolute;
   top: 0px;
@@ -779,7 +787,6 @@ TESTIMONIALS
   color: #6415ff;
   letter-spacing: 1.6px;
   font-weight: 700;
-  padding: 150px 0 0 0;
 }
 
 .test__section__title {
@@ -1144,7 +1151,7 @@ footer {
 
 /* 
 
-Responsiveness
+@media
 
 */
 
@@ -1228,5 +1235,28 @@ Responsiveness
 .feature {
   width: 100%;
 }
+}
+@media (max-width: 768px) {
+  .steps__row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .steps__row {
+    width: 100%;
+  }
+  .steps__img {
+    self-align: center:
+  }
+  .step__section__tag {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .step__section__title {
+    text-align: center;
+  }
+  .step__number {
+    text-align: center;
+  }
 }
 
