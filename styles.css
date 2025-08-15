@@ -546,9 +546,8 @@ PRICES
   display: flex;
   justify-content: center;
   max-width: 1280px;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
-  background-color: #e9e3e3;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -1161,6 +1160,11 @@ footer {
     padding: 0 36px;
   }
 
+@media (max-width: 1220px) {
+
+}
+
+
 @media (max-width: 1020px) {
   .we__offer__row {
     flex-direction: column;
@@ -1295,6 +1299,7 @@ footer {
     flex-direction: column-reverse;
   }
   .value__para {
-    bottom-margin: 32px;
+    margin-bottom: 32px;
   }
+
 }
