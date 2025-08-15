@@ -1222,6 +1222,9 @@ footer {
 
 
 @media (max-width: 768px) {
+  section {
+    padding: 36px 0;
+  }
   .quality__row {
     flex-direction: column-reverse;
   }
@@ -1250,9 +1253,6 @@ footer {
   }
   .oval-button  {
     align-self: center;
-  }
-  section {
-    padding: 22px 0;
   }
   .steps__row {
     flex-direction: column;
