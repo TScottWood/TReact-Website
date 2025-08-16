@@ -513,8 +513,8 @@ PRICES
 }
 
 .pricing__row {
-  margin: 64px;
-  padding: 64px;
+
+.padding: 32px;
 }
 
 .pricing__section__tag {
@@ -548,7 +548,6 @@ PRICES
   max-width: 1280px;
   padding: 10px;
   margin: 0 auto;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .plan--A {
@@ -561,6 +560,7 @@ PRICES
   background: rgb(255, 255, 255);
   position: relative;
   overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .plan--A::after {
@@ -583,6 +583,7 @@ PRICES
   background: rgb(255, 255, 255);
   position: relative;
   overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .plan--C::after {
@@ -1155,15 +1156,63 @@ footer {
   }
 }
 
+@media (max-width: 850px) {
+  .pricing__section__title,
+  .pricing__section__para {
+    padding: 0 20px;
+  }
+ .plans {
+  padding: 0;
+ }
+}
+@media (max-width: 780px) { 
+  .test__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section__para {
+    font-size: 14px;
+    }
+  .column-right {
+    text-align: center;
+  }
+  .test__img {
+    margin-bottom: 64px;
+    self-align: center;
+  }
+  .text__description {
+    text-align: center;
+  }
+  .test__section__tag {
+    text-align: center;
+  }
+  .test__section__title {
+    text-align: center;
+    font-size: 36px;
+  }
+  .test__para {
+    text-align: center;
+  }
+  }
+
 @media (max-width: 1310px) {
   .values__container {
     padding: 0 36px;
   }
-
-@media (max-width: 1220px) {
-
 }
 
+@media (max-width: 1225px) {
+.plans {
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 781px) {
+.section__para {
+  margin: 0 0 32px 32px;
+  font-size: 16px;
+}
+}
 
 @media (max-width: 1020px) {
   .we__offer__row {
