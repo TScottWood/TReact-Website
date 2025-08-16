@@ -845,8 +845,8 @@ TESTIMONIALS
 
 .directors__container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 80px;
   position: relative;
   padding-right: 80px;
 }
@@ -859,6 +859,11 @@ TESTIMONIALS
   object-fit: contain;
   margin-right: 20px;
   margin-top: 2px;
+}
+
+.directors__photo {
+  display: flex;
+  align-items: center;
 }
 
 .directors__text {
@@ -882,9 +887,6 @@ TESTIMONIALS
 .test__arrow--right {
   cursor: pointer;
   transition: all 0.3s;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .test__arrow--left {
@@ -900,6 +902,7 @@ TESTIMONIALS
   object-fit: contain;
   background-color: #f3f5f9;
   left: 500px;
+  margin-right: 12px; 
 }
 
 .test__arrow--right {
@@ -915,6 +918,9 @@ TESTIMONIALS
   object-fit: contain;
   background-color: #f3f5f9;
   left: 600px;
+}
+.testimonials__arrows {
+  display: flex;
 }
 
 
@@ -1349,6 +1355,15 @@ footer {
   }
   .value__para {
     margin-bottom: 32px;
+  }
+  .directors__container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+  }
+  .column-left, .column-right {
+    width: 100%;
+  }
   }
 
 }
