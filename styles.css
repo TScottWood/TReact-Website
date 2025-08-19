@@ -1175,6 +1175,24 @@ footer {
   .footer__categories__columns {
     
   }
+  .footer__bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Add spacing between stacked elements */
+  }
+
+  .footer__logo,
+  .footer__copyright,
+  .footer__social__links {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer__social__links {
+    display: flex;
+    gap: 20px; /* Maintain spacing between social icons */
+  }
 }
 
 @media (max-width: 850px) {
