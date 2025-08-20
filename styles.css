@@ -1250,6 +1250,10 @@ footer {
   .values__container {
     padding: 0 36px;
   }
+.test__para,
+.test__one {
+  padding: 0 24px 0 0;
+}
 }
 @media (max-width: 1255px) {
   .get__started__row {
@@ -1276,12 +1280,7 @@ footer {
   align-items: center;
 }
 }
-@media (max-width: 781px) {
-.section__para {
-  margin: 0 0 32px 32px;
-  font-size: 16px;
-}
-}
+
 
 @media (max-width: 1020px) {
   .we__offer__row {
@@ -1356,6 +1355,13 @@ footer {
   margins: 0 100px;
 }
 }
+
+@media (max-width: 781px) {
+  .section__para {
+    margin: 0 0 32px 32px;
+    font-size: 16px;
+  }
+  }
 
 @media (max-width: 768px) {
   section {
